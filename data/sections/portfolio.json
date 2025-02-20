@@ -1,0 +1,228 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My *Portfolio*"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "Web-apps",
+                    "locales": {
+                        "en": {"singular": "Web-app", "plural": "Web-apps"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/keylogger.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"}
+                    ],
+
+                    "media": {},
+
+                    "locales": {
+                        "en": {
+                            "title": "Advance Key Logger",
+                            "text": "Build a key-logger in python which logs keys, gathers computer information, network information, gets the clipboard content, records the user microphone, and take screenshots of a computer screen.",                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "Web-apps",
+                    "icon": {
+                        "img": "images/pictures/Ecommerce.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Ecommerce Auction",
+                            "text": "I came up with an e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a watchlist.",
+                            "tags": ["Next.js", "Finance", "Money"]
+                        }
+                    }
+                },
+                
+                {
+                    "categoryId": "Web-apps",
+                    "icon": {
+                        "img": "images/pictures/Edcare.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Edcare Chemnitz",
+                            "text": "EdCare Chemnitz is a comprehensive data management and visualization system for educational and social services. It integrates data from multiple sources, represented in CSV files, into a MongoDB database and provides a robust API to manage and access this data. The platform features user authentication, data importation, and dynamic visualization using mapping technologies",
+                            "tags": ["WooCommerce", "Food", "Desserts"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "Web-apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Hexashield",
+                            "text": "*HexaShield* is an AI-driven security assessment platform designed to streamline and enhance cybersecurity evaluations. It leverages advanced machine learning algorithms to identify vulnerabilities, assess risks, and provide actionable insights, making security assessments smarter, faster, and more efficient. HexaShield helps organizations strengthen their defenses by transforming complex security challenges into scalable, data-driven solutions.",
+                            "tags": ["Django", "Music", "Rock"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/presentation-administrating-tool.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
+                    ],
+
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Presentation Administrating Tool",
+                            "text": "Purpose: To remove the use of physical objects in handling the presentation.Contribution : I have worked on the Hand-Tracking and action performance modules.Outcome: We came up with a software through which we can administrate the presentation with the help of some specific set of hand gestures.Technology used: Python ( libraries used are openCV, Mediapipe)",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "Web-apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "NetworkX",
+                            "text": "*Network X* is a social media platform inspired by Twitter, designed for seamless real-time communication and content sharing. It enables users to post updates, follow others, engage through likes and comments, and participate in trending discussions. Built with a modern tech stack, Network X prioritizes scalability, user engagement, and security while offering an intuitive and responsive user experience.",
+                            "tags": ["Django", "Rock"]
+                        }
+                    }
+                },
+                
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/presentation-administrating-tool.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
+                    ],
+
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Presentation Administrating Tool",
+                            "text": "Purpose: To remove the use of physical objects in handling the presentation.Contribution : I have worked on the Hand-Tracking and action performance modules.Outcome: We came up with a software through which we can administrate the presentation with the help of some specific set of hand gestures.Technology used: Python ( libraries used are openCV, Mediapipe)",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,461 @@
+{
+   "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+
+        "de": {
+            "title": "Fähigkeiten",
+            "title_long_prefix": "Erkunde",
+            "title_long": "Mein **Fähigkeiten-Set**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Website** design",
+                            "text": "I can bring your best ideas into life!"
+                        },
+                        "de": {
+                            "title": "**Webseiten**-Design",
+                            "text": "Ich kann deine besten Ideen zum Leben erwecken!"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** management",
+                            "text": "I can handle your data effectively!"
+                        },
+                        "de": {
+                            "title": "**Datenbank**-Management",
+                            "text": "Ich kann deine Daten effizient verwalten!"
+                        }
+                    }
+                },
+
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-window-restore",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST **APIs**",
+                            "text": "I can build API services!"
+                        },
+                        "de": {
+                            "title": "REST **APIs**",
+                            "text": "Ich kann API-Dienste erstellen!"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lock",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Information **Security**",
+                            "text": "Security is my middle name!"
+                        },
+                        "de": {
+                            "title": "Informations**sicherheit**",
+                            "text": "Sicherheit ist mein zweiter Vorname!"
+                        }
+                    }
+                }
+            ]
+
+        },
+
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Backend"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "10/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Express.js",
+                            "info": null
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {"bg": "#306998", "fill": "#EEE"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "06/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python 3.x",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "10/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-docker",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "06/15/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "05/20/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "01/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {"bg": "#339933", "fill": "#EEE"}
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "03/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Nest.js",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Frontend"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": "09/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "01/15/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "03/10/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "02/10/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "06/20/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "08/30/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Typescript",
+                            "info": null
+                        }
+                    }
+                }
+                
+            ]
+        },
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": { "title": "Languages" },
+                "de": { "title": "Sprachen" },
+                "hi": { "title": "भाषाएँ" }
+            },
+        
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/in.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "info": "Native speaker with excellent fluency in spoken and written Hindi.",
+                            "tags": ["Native"]
+                        },
+                        "de": {
+                            "title": "Hindi",
+                            "info": "Muttersprachler mit ausgezeichneter mündlicher und schriftlicher Beherrschung.",
+                            "tags": ["Muttersprache"]
+                        },
+                        "hi": {
+                            "title": "हिन्दी",
+                            "info": "मातृभाषा, बोलने और लिखने में उत्कृष्ट प्रवाह।",
+                            "tags": ["मातृभाषा"]
+                        }
+                    }
+                },
+        
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent in both spoken and written English; strong professional communication skills.",
+                            "tags": ["Fluent"]
+                        },
+                        "de": {
+                            "title": "Englisch",
+                            "info": "Fließend in gesprochener und geschriebener Sprache; starke berufliche Kommunikationsfähigkeiten.",
+                            "tags": ["Fließend"]
+                        },
+                        "hi": {
+                            "title": "अंग्रेज़ी",
+                            "info": "बोलने और लिखने में धाराप्रवाह; व्यावसायिक संचार में निपुण।",
+                            "tags": ["धाराप्रवाह"]
+                        }
+                    }
+                },
+        
+                {
+                    "icon": {
+                        "img": "images/flags/de.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "German",
+                            "info": "Completed A2 level; currently learning B1 for better fluency.",
+                            "tags": ["B1 (Learning)"]
+                        },
+                        "de": {
+                            "title": "Deutsch",
+                            "info": "A2 abgeschlossen; lernt derzeit B1 für bessere Sprachkenntnisse.",
+                            "tags": ["B1 (Lernend)"]
+                        },
+                        "hi": {
+                            "title": "जर्मन",
+                            "info": "A2 स्तर पूरा कर लिया है; बेहतर प्रवाह के लिए B1 सीख रहा हूँ।",
+                            "tags": ["B1 (सीख रहा हूँ)"]
+                        }
+                    }
+                }
+            ]
+        }
+        
+        
+    ]
+}

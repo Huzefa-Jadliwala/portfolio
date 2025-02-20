@@ -1,0 +1,133 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-atlassian",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "10/04/2024",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://university.atlassian.com/student/award/SkeAMXY9UiUYZr1uAqS6VKs6" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Jira** Fundamentals Badge",
+                            "text": "Certified Project Manager"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-coursera",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": "01/09/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://coursera.org/share/d3827f41679ba8aecff7f00d8677cebb" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Cybersecurity **Roles, Processes & Operating System** Security",
+                            "text": "Certified Cybersecurity Professional"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-coursera",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "03/09/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://coursera.org/share/2c5eeefe82eafad5004718b30fcd818c" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Introduction to **Cybersecurity Tools & Cyber Attacks**",
+                            "text": "Certified Cybersecurity Professional"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/harvard.png",
+                        "fa": "fa-brands fa-harvard",
+                        "faColors": {"bg": "#000000", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "01/09/2021",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://certificates.cs50.io/50448f5a-4212-4b64-87d3-c171ae613a85.pdf?size=letter" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**CS50** - Introduction to Computer Science",
+                            "text": "Certified Software Engineer"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "10/05/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Best Final Year Project** – Backend Optimization",
+                            "info": "SIT",
+                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

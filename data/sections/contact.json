@@ -1,0 +1,104 @@
+{ 
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+        "de": {
+            "title": "Kontakt",
+            "title_long_prefix": "Zögere nicht, mich zu",
+            "title_long": "**Kontaktieren**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "de": {"title": "Schicke mir eine **Nachricht**"}
+            },
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "de": {"title": "Oder wenn du es **bevorzugst**..."}
+            },
+
+            "items": [
+                {
+                    "value": "+49 15758538387",
+                    "links": [
+                        {"href": "tel:+4915758538387"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "de": {"title": "Telefon"}
+                    }
+                },
+
+                {
+                    "value": "huzefa.jadliwala@gmail.com",
+                    "links": [
+                        {"href": "mailto:huzefa.jadliwala@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "de": {"title": "E-Mail"}
+                    }
+                },
+
+                {
+                    "value": "@huzefa-jadliwala",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/huzefa-jadliwala/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "de": {"title": "LinkedIn"}
+                    }
+                },
+                {
+                    "value": "@huzefa.jadliwala",
+                    "links": [
+                        {"href": "https://www.instagram.com/huzefa.jadliwala/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "de": {"title": "Instagram"}
+                    }
+                }
+            ]
+        }
+    ]
+}

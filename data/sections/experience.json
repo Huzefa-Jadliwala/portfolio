@@ -1,0 +1,83 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "de": {
+            "title": "Erfahrung",
+            "title_long_prefix": "Zusammenfassung meiner",
+            "title_long": "**Berufserfahrung**"
+        }
+    },
+
+   "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/bizprospex.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "06/01/2018",
+                        "end": "12/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend Engineer**",
+                            "info": "BizProspex",
+                            "text": "<p>• Led the development of web applications using Django, focusing on customizing models, views, templates, and forms to create dynamic, feature-rich websites.</p> <p>• Integrated third-party libraries and APIs to extend functionality, while leveraging Django's authentication and authorization system.</p> <p>• Collaborated effectively within the development team, showcasing strong problem-solving skills and contributing to a culture of teamwork and innovation.</p>",
+                            "tags": ["Django", "Python", "Web Development", "REST API", "PostgreSQL", "Authentication", "API Integration"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/mnf.png",
+                        "fa": "",
+                        "faColors": { "bg": "#111", "fill": "#EEE" }
+                    },
+                    "dates": {
+                        "start": "07/01/2023",
+                        "end": "11/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend Developer**",
+                            "info": "MNF Pvt.",
+                            "text": "<p>• Developed the membership feature of the MyNextFilm (MNF) platform, catering to students, institutions, and corporations in the film industry.</p><p>• Implemented user registration flows for different user types, including affiliated and unaffiliated students, waiting students, institutions, and corporations.</p><p>• Designed and integrated intuitive dashboards for each user type, enabling credit requests, usage tracking, and account management.</p>",
+                            "tags": ["Django", "Python", "Backend Development", "PostgreSQL", "API Development", "User Authentication"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/watttron.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "06/15/2024",
+                        "end": "Present"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Software Engineer**",
+                            "info": "Watttron GmbH",
+                            "text": "<p><strong>WTX-Web:</strong></p><p>• Focused on feature development and maintenance, improving the React frontend for enhanced performance and usability.</p><p>• Integrated Material UI (MUI) and d3.js to enhance UI/UX, enabling better interactivity and visualization.</p><p><strong>WTX-Layout-Assistant:</strong></p> <p>• Led full-stack development, designing and building the entire project, including a DXF to SVG conversion pipeline and annotation editors.</p> <p>• Implemented Flask-based form validation and optimized heater layout generation from CAD files.</p> <p><strong>Automation & Deployment:</strong></p> <p>• Created scripts for API documentation validation and automated heater configuration.</p> <p>• Managed Docker deployments, dependency handling with Poetry, and collaborated in an Agile environment to ensure smooth development cycles.</p>",
+                            "tags": ["React", "Material UI", "D3.js", "Full-Stack Development", "DXF to SVG", "Flask", "Docker", "Poetry", "Agile"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

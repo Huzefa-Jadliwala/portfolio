@@ -1,0 +1,115 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "de": {
+            "title": "Bildung",
+            "title_long_prefix": "Dies ist mein",
+            "title_long": "**Bildungsweg**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+
+            "locales": {
+                "en": {
+                    "title": "Academic Journey",
+                    "description": "A timeline of my educational background, from high school to advanced degrees.",
+                    "tags": ["education", "STEM", "computer science"]
+                },
+                "de": {
+                    "title": "Akademischer Werdegang",
+                    "description": "Eine Zeitleiste meiner Ausbildung, von der Schule bis zu höheren Abschlüssen.",
+                    "tags": ["Bildung", "MINT", "Informatik"]
+                }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "fa-solid fa-school",
+                        "faColors": {"bg": "#4A90E2", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "06/01/2017",
+                        "end": "07/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**High** Secondary School",
+                            "info": "BEMS",
+                            "text": "<p>Completed higher secondary education with a focus on Science and Mathematics. The curriculum covered key subjects such as:</p> <ul><li>Physics</li><li>Chemistry</li><li>Mathematics</li><li>Computer Science</li></ul> <p class='mt-3'>Developed a strong analytical and problem-solving foundation, which later contributed to a deep understanding of engineering and technology.</p>",
+                            "tags": ["physics", "chemistry", "maths", "science", "technology"]
+                        },
+                        "de": {
+                            "title": "**Hoch**schule",
+                            "info": "BEMS",
+                            "text": "<p>Abschluss der höheren Sekundarschule mit Schwerpunkt auf Naturwissenschaften und Mathematik. Die wichtigsten Fächer umfassten:</p> <ul><li>Physik</li><li>Chemie</li><li>Mathematik</li><li>Informatik</li></ul> <p class='mt-3'>Entwicklung einer starken analytischen und problemlösenden Denkweise, die später zu einem tiefen Verständnis von Ingenieurwissenschaften und Technologie beitrug.</p>",
+                            "tags": ["Physik", "Chemie", "Mathematik", "Wissenschaft", "Technologie"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "fa-solid fa-graduation-cap",
+                        "faColors": {"bg": "#50E3C2", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "06/01/2019",
+                        "end": "07/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "SIT",
+                            "text": "<p>Earned a Bachelor's degree in Computer Science, specializing in software development and computational theories. Key subjects included:</p> <ul><li>Algorithms & Data Structures</li><li>Software Engineering</li><li>Web Development</li><li>Artificial Intelligence</li></ul> <p class='mt-3'>Engaged in hands-on projects, coding boot camps, and research initiatives, solidifying both practical and theoretical expertise.</p>",
+                            "tags": ["programming", "algorithms", "AI", "software engineering"]
+                        },
+                        "de": {
+                            "title": "**Bachelor** in Informatik",
+                            "info": "SIT",
+                            "text": "<p>Erworbenes Bachelor-Studium in Informatik mit Spezialisierung auf Softwareentwicklung und theoretische Informatik. Wichtige Themen umfassten:</p> <ul><li>Algorithmen & Datenstrukturen</li><li>Software Engineering</li><li>Webentwicklung</li><li>Künstliche Intelligenz</li></ul> <p class='mt-3'>Beteiligung an praxisorientierten Projekten, Programmier-Bootcamps und Forschungsinitiativen, um sowohl praktische als auch theoretische Fachkenntnisse zu vertiefen.</p>",
+                            "tags": ["Programmierung", "Algorithmen", "KI", "Softwareentwicklung"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-6.png",
+                        "fa": "fa-solid fa-university",
+                        "faColors": {"bg": "#F5A623", "fill": "#FFFFFF"}
+                    },
+                    "dates": {
+                        "start": "10/01/2023",
+                        "end": "Present"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Master's** in Web Engineering",
+                            "info": "Technische Universität Chemnitz",
+                            "text": "<p>Currently pursuing a Master's degree in Web Engineering, specializing in modern web technologies, distributed systems, and AI-driven solutions. Focus areas include:</p> <ul><li>Cloud Computing</li><li>Web Security</li><li>Machine Learning for Web Applications</li><li>Microservices & Scalable Architectures</li></ul> <p class='mt-3'>Applying theoretical knowledge to real-world applications, contributing to innovative research and projects in web technology.</p>",
+                            "tags": ["web development", "cloud computing", "machine learning", "security", "microservices"]
+                        },
+                        "de": {
+                            "title": "**Master** in Web-Engineering",
+                            "info": "Technische Universität Chemnitz",
+                            "text": "<p>Derzeit im Masterstudium für Web-Engineering mit Schwerpunkt auf modernen Webtechnologien, verteilten Systemen und KI-gesteuerten Lösungen. Schwerpunktbereiche sind:</p> <ul><li>Cloud Computing</li><li>Web-Sicherheit</li><li>Maschinelles Lernen für Web-Anwendungen</li><li>Microservices & Skalierbare Architekturen</li></ul> <p class='mt-3'>Theoretisches Wissen wird auf reale Anwendungen angewendet, um zu innovativer Forschung und Projekten in der Web-Technologie beizutragen.</p>",
+                            "tags": ["Webentwicklung", "Cloud Computing", "Maschinelles Lernen", "Sicherheit", "Microservices"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
