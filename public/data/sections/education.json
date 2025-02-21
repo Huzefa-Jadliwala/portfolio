@@ -44,7 +44,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**High** Secondary School",
+                            "title": "**Higher** Secondary School",
                             "info": "BEMS",
                             "text": "<p>Completed higher secondary education with a focus on Science and Mathematics. The curriculum covered key subjects such as:</p> <ul><li>Physics</li><li>Chemistry</li><li>Mathematics</li><li>Computer Science</li></ul> <p class='mt-3'>Developed a strong analytical and problem-solving foundation, which later contributed to a deep understanding of engineering and technology.</p>",
                             "tags": ["physics", "chemistry", "maths", "science", "technology"]
@@ -70,7 +70,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Bachelor** in Computer Science",
+                            "title": "**Bachelor's** in Computer Science",
                             "info": "SIT",
                             "text": "<p>Earned a Bachelor's degree in Computer Science, specializing in software development and computational theories. Key subjects included:</p> <ul><li>Algorithms & Data Structures</li><li>Software Engineering</li><li>Web Development</li><li>Artificial Intelligence</li></ul> <p class='mt-3'>Engaged in hands-on projects, coding boot camps, and research initiatives, solidifying both practical and theoretical expertise.</p>",
                             "tags": ["programming", "algorithms", "AI", "software engineering"]
@@ -88,7 +88,7 @@
                     "icon": {
                         "img": "images/pictures/place-6.png",
                         "fa": "fa-solid fa-university",
-                        "faColors": {"bg": "#F5A623", "fill": "#FFFFFF"}
+                        "faColors": {"bg": "#ffffff", "fill": "#FFFFFF"}
                     },
                     "dates": {
                         "start": "10/01/2023",

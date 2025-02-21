@@ -27,8 +27,8 @@
                         "faColors": { "bg": null, "fill": null }
                     },
                     "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
+                        "start": "01/01/2023",
+                        "end": "04/01/2023"
                     },
                     "locales": {
                         "en": {
@@ -43,7 +43,7 @@
                     "icon": {
                         "img": "images/pictures/mnf.png",
                         "fa": "",
-                        "faColors": { "bg": "#111", "fill": "#EEE" }
+                        "faColors": { "bg": "#ffffff", "fill": "#EEE" }
                     },
                     "dates": {
                         "start": "07/01/2023",
