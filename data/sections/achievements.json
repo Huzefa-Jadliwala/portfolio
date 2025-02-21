@@ -5,6 +5,12 @@
             "title_menu": "Achievements",
             "title_long_prefix": "Here are my",
             "title_long": "Career **Achievements**"
+        },
+        "de": {
+            "title": "Auszeichnungen",
+            "title_menu": "Erfolge",
+            "title_long_prefix": "Hier sind meine",
+            "title_long": "Beruflichen **Erfolge**"
         }
     },
 
@@ -14,7 +20,8 @@
             "component": "ArticleCards",
             "config": {},
             "locales": {
-                "en": { "title": "Certifications" }
+                "en": { "title": "Certifications" },
+                "de": { "title": "Zertifizierungen" }
             },
 
             "items": [
@@ -35,14 +42,18 @@
                         "en": {
                             "title": "**Jira** Fundamentals Badge",
                             "text": "Certified Project Manager"
+                        },
+                        "de": {
+                            "title": "**Jira** Grundlagen-Abzeichen",
+                            "text": "Zertifizierter Projektmanager"
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-coursera",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                        "img": "images/pictures/coursera.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
                         "start": "01/09/2022",
@@ -55,14 +66,18 @@
                         "en": {
                             "title": "Cybersecurity **Roles, Processes & Operating System** Security",
                             "text": "Certified Cybersecurity Professional"
+                        },
+                        "de": {
+                            "title": "Cybersicherheit **Rollen, Prozesse & Betriebssystem**-Sicherheit",
+                            "text": "Zertifizierter Cybersicherheitsprofi"
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-coursera",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                        "img": "images/pictures/coursera.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
                         "start": "03/09/2022",
@@ -75,14 +90,18 @@
                         "en": {
                             "title": "Introduction to **Cybersecurity Tools & Cyber Attacks**",
                             "text": "Certified Cybersecurity Professional"
+                        },
+                        "de": {
+                            "title": "Einführung in **Cybersicherheits-Tools & Cyberangriffe**",
+                            "text": "Zertifizierter Cybersicherheitsprofi"
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/harvard.png",
-                        "fa": "fa-brands fa-harvard",
-                        "faColors": {"bg": "#000000", "fill": "#EEE"}
+                        "img": "images/pictures/place-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
                         "start": "01/09/2021",
@@ -95,6 +114,10 @@
                         "en": {
                             "title": "**CS50** - Introduction to Computer Science",
                             "text": "Certified Software Engineer"
+                        },
+                        "de": {
+                            "title": "**CS50** - Einführung in die Informatik",
+                            "text": "Zertifizierter Softwareentwickler"
                         }
                     }
                 }
@@ -107,9 +130,7 @@
             "config": {},
             "locales": {
                 "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
-                "ko": { "title": "수상 내역" }
+                "de": { "title": "Auszeichnungen" }
             },
 
             "items": [
@@ -124,6 +145,51 @@
                             "title": "**Best Final Year Project** – Backend Optimization",
                             "info": "SIT",
                             "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                        },
+                        "de": {
+                            "title": "**Bestes Abschlussprojekt** – Backend-Optimierung",
+                            "info": "SIT",
+                            "text": "Ausgezeichnet für innovative Arbeit zur Optimierung von Backend-Systemen für Cloud-Umgebungen mit erheblichen Leistungsverbesserungen."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "08/12/2022",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Late Shri Dewang Mehta** IT Award",
+                            "info": "Late Shri Dewang Mehta Foundation",
+                            "text": "Honored with the Dewang Mehta Excellence Award for academic excellence in the IT sector."
+                        },
+                        "de": {
+                            "title": "**Späte Shri Dewang Mehta** IT-Auszeichnung",
+                            "info": "Dewang Mehta Stiftung",
+                            "text": "Ausgezeichnet mit dem Dewang Mehta Excellence Award für akademische Exzellenz im IT-Bereich."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "12/10/2021",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**University** Rank",
+                            "info": "Achieved 4th Rank",
+                            "text": "Secured 4th rank in university for academic excellence."
+                        },
+                        "de": {
+                            "title": "**Universitätsrang**",
+                            "info": "Erreichte den 4. Platz",
+                            "text": "Den 4. Platz an der Universität für akademische Exzellenz gesichert."
                         }
                     }
                 }

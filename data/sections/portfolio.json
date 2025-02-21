@@ -3,7 +3,12 @@
         "en": {
             "title": "Portfolio",
             "title_long_prefix": "Take a look at",
-            "title_long": "My *Portfolio*"
+            "title_long": "My **Portfolio**"
+        },
+        "de": {
+            "title": "Portfolio",
+            "title_long_prefix": "Werfen Sie einen Blick auf",
+            "title_long": "Mein **Portfolio**"
         }
     },
 
@@ -18,13 +23,15 @@
                 {
                     "id": "Web-apps",
                     "locales": {
-                        "en": {"singular": "Web-app", "plural": "Web-apps"}
+                        "en": {"singular": "Web-app", "plural": "Web-apps"},
+                        "de": {"singular": "Web-App", "plural": "Web-Apps"}
                     }
                 },
                 {
                     "id": "utilities",
                     "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"}
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "de": {"singular": "Dienstprogramm", "plural": "Dienstprogramme"}
                     }
                 }
             ],
@@ -33,13 +40,13 @@
                 {
                     "categoryId": "utilities",
                     "icon": {
-                        "img": "images/pictures/keylogger.png",
+                        "img": "images/pictures/keylogger.jpg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/Advance-KeyLogger"}
                     ],
 
                     "media": {},
@@ -47,7 +54,13 @@
                     "locales": {
                         "en": {
                             "title": "Advance Key Logger",
-                            "text": "Build a key-logger in python which logs keys, gathers computer information, network information, gets the clipboard content, records the user microphone, and take screenshots of a computer screen.",                            "tags": ["API", "REST", "Backend"]
+                            "text": "Develop a Python-based system for activity monitoring that logs keystrokes, gathers system and network information, captures clipboard content, records microphone input, and takes periodic screenshots",                            
+                            "tags": ["Python", "Security"]
+                        },
+                        "de": {
+                            "title": "Erweiterter Key Logger",
+                            "text": "Entwicklung eines Python-basierten Systems zur Aktivitätsüberwachung, das Tastenanschläge protokolliert, System- und Netzwerkinformationen sammelt, Zwischenablageninhalte erfasst, Mikrofoneingaben aufzeichnet und regelmäßig Screenshots macht.",
+                            "tags": ["Python", "Sicherheit"]
                         }
                     }
                 },
@@ -55,17 +68,17 @@
                 {
                     "categoryId": "Web-apps",
                     "icon": {
-                        "img": "images/pictures/Ecommerce.png",
+                        "img": "images/pictures/Ecommerce.jpg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/Commerce"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "youtubeVideo": "https://youtu.be/2sLPx86wvTs?si=6kU3HRFAls3ZrTSN",
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -75,8 +88,13 @@
                     "locales": {
                         "en": {
                             "title": "Ecommerce Auction",
-                            "text": "I came up with an e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a watchlist.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "text": "Develop an e-commerce auction platform where users can create auction listings, place bids, leave comments, and manage a watchlist for their favorite listings.",
+                            "tags": ["Python", "Django", "Postgres", "Jinja", "Javascript", "HTML", "CSS"]
+                        },
+                        "de": {
+                            "title": "E-Commerce-Auktion",
+                            "text": "Entwicklung einer E-Commerce-Auktionsplattform, auf der Nutzer Auktionsangebote erstellen, Gebote abgeben, Kommentare hinterlassen und eine Beobachtungsliste für ihre bevorzugten Angebote verwalten können.",
+                            "tags": ["Python", "Django", "Postgres", "Jinja", "Javascript", "HTML", "CSS"]
                         }
                     }
                 },
@@ -84,17 +102,17 @@
                 {
                     "categoryId": "Web-apps",
                     "icon": {
-                        "img": "images/pictures/Edcare.png",
+                        "img": "images/pictures/Edcare.jpg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/EdCare"}
                     ],
 
                     "media": {
-                        "youtubeVideo": null,
+                        "youtubeVideo": "https://youtu.be/o2fd_DRNVRg",
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -104,8 +122,13 @@
                     "locales": {
                         "en": {
                             "title": "Edcare Chemnitz",
-                            "text": "EdCare Chemnitz is a comprehensive data management and visualization system for educational and social services. It integrates data from multiple sources, represented in CSV files, into a MongoDB database and provides a robust API to manage and access this data. The platform features user authentication, data importation, and dynamic visualization using mapping technologies",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
+                            "text": "EdCare Chemnitz streamlines data management for education and social services, integrating CSV data into MongoDB with authentication, APIs, and dynamic mapping visualizations.",
+                            "tags": ["Maps", "Express", "MongoDB", "NodeJS", "React"]
+                        },
+                        "de": {
+                            "title": "EdCare Chemnitz",
+                            "text": "EdCare Chemnitz optimiert das Datenmanagement für Bildung und soziale Dienste, indem es CSV-Daten in MongoDB integriert, mit Authentifizierung, APIs und dynamischen Kartendarstellungen.",
+                            "tags": ["Karten", "Express", "MongoDB", "NodeJS", "React"]
                         }
                     }
                 },
@@ -113,71 +136,15 @@
                 {
                     "categoryId": "Web-apps",
                     "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Hexashield",
-                            "text": "*HexaShield* is an AI-driven security assessment platform designed to streamline and enhance cybersecurity evaluations. It leverages advanced machine learning algorithms to identify vulnerabilities, assess risks, and provide actionable insights, making security assessments smarter, faster, and more efficient. HexaShield helps organizations strengthen their defenses by transforming complex security challenges into scalable, data-driven solutions.",
-                            "tags": ["Django", "Music", "Rock"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/presentation-administrating-tool.png",
+                        "img": "images/pictures/hexashield.jpg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
-
+            
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/hexashield"}
                     ],
-
-                    "media": {
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Presentation Administrating Tool",
-                            "text": "Purpose: To remove the use of physical objects in handling the presentation.Contribution : I have worked on the Hand-Tracking and action performance modules.Outcome: We came up with a software through which we can administrate the presentation with the help of some specific set of hand gestures.Technology used: Python ( libraries used are openCV, Mediapipe)",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        }
-                    }
-                },
-                {
-                    "categoryId": "Web-apps",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
-                    ],
-
+            
                     "media": {
                         "youtubeVideo": "",
                         "screenshots": {
@@ -185,26 +152,97 @@
                             "images": []
                         }
                     },
-
+            
+                    "locales": {
+                        "en": {
+                            "title": "Hexashield",
+                            "text": "HexaShield is an AI-powered platform that streamlines cybersecurity assessments, using machine learning to identify vulnerabilities, assess risks, and deliver actionable insights.",
+                            "tags": ["Flask", "MongoDB", "Typescript"]
+                        },
+                        "de": {
+                            "title": "Hexashield",
+                            "text": "HexaShield ist eine KI-gestützte Plattform zur Optimierung von Cybersicherheitsbewertungen. Sie nutzt maschinelles Lernen zur Identifizierung von Schwachstellen, Risikobewertung und Bereitstellung umsetzbarer Erkenntnisse.",
+                            "tags": ["Flask", "MongoDB", "Typescript"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/pat.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+            
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/Presentation-Administrating-Tool"}
+                    ],
+            
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+            
+                    "locales": {
+                        "en": {
+                            "title": "Presentation Administrating Tool",
+                            "text": "Developed a hand-tracking-based presentation control software using Python, OpenCV, and Mediapipe, enabling gesture-driven navigation without physical devices.",
+                            "tags": ["Python", "OpenCV", "Mediapipe"]
+                        },
+                        "de": {
+                            "title": "Präsentationsverwaltungs-Tool",
+                            "text": "Entwickelte eine handverfolgungsbasierte Präsentationssteuerungssoftware mit Python, OpenCV und Mediapipe, die eine gestengesteuerte Navigation ohne physische Geräte ermöglicht.",
+                            "tags": ["Python", "OpenCV", "Mediapipe"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "Web-apps",
+                    "icon": {
+                        "img": "images/pictures/networkx.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+            
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
+                    ],
+            
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+            
                     "locales": {
                         "en": {
                             "title": "NetworkX",
-                            "text": "*Network X* is a social media platform inspired by Twitter, designed for seamless real-time communication and content sharing. It enables users to post updates, follow others, engage through likes and comments, and participate in trending discussions. Built with a modern tech stack, Network X prioritizes scalability, user engagement, and security while offering an intuitive and responsive user experience.",
-                            "tags": ["Django", "Rock"]
+                            "text": "Network X is a Twitter-inspired social media platform for real-time updates, engagement, and trending discussions, built for scalability, security, and a seamless user experience.",
+                            "tags": ["Django", "MongoDB", "Python", "Javascript", "HTML", "CSS"]
+                        },
+                        "de": {
+                            "title": "NetworkX",
+                            "text": "Network X ist eine von Twitter inspirierte Social-Media-Plattform für Echtzeit-Updates, Interaktion und Trenddiskussionen, entwickelt für Skalierbarkeit, Sicherheit und eine nahtlose Benutzererfahrung.",
+                            "tags": ["Django", "MongoDB", "Python", "Javascript", "HTML", "CSS"]
                         }
                     }
                 },
                 
                 {
-                    "categoryId": "utilities",
+                    "categoryId": "Web-apps",
                     "icon": {
-                        "img": "images/pictures/presentation-administrating-tool.png",
+                        "img": "images/pictures/portfolio.jpg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://github.com/Huzefa-Jadliwala/socialnetwork"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Huzefa-Jadliwala/portfolio"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://huzefa-jadliwala.github.io/portfolio/"}
                     ],
 
                     "media": {
@@ -216,9 +254,14 @@
 
                     "locales": {
                         "en": {
-                            "title": "Presentation Administrating Tool",
-                            "text": "Purpose: To remove the use of physical objects in handling the presentation.Contribution : I have worked on the Hand-Tracking and action performance modules.Outcome: We came up with a software through which we can administrate the presentation with the help of some specific set of hand gestures.Technology used: Python ( libraries used are openCV, Mediapipe)",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "title": "Portfolio",
+                            "text": "Developed a personal portfolio website using React, showcasing projects, skills, and contact information, with a responsive design for desktop and mobile devices.",
+                            "tags": ["React", "Javascript", "HTML", "CSS"]
+                        },
+                        "de": {
+                            "title": "Portfolio",
+                            "text": "Entwicklung einer persönlichen Portfolio-Website mit React, die Projekte, Fähigkeiten und Kontaktinformationen präsentiert, mit einem responsiven Design für Desktop und mobile Geräte.",
+                            "tags": ["React", "Javascript", "HTML", "CSS"]
                         }
                     }
                 }

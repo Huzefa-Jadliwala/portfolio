@@ -5,6 +5,12 @@
             "title_menu": "About me",
             "title_long_prefix": "Hello...",
             "title_long": "I'm **Huzefa Jadliwala!**"
+        },
+        "de": {
+            "title": "Willkommen!",
+            "title_menu": "Über mich",
+            "title_long_prefix": "Hallo...",
+            "title_long": "Ich bin **Huzefa Jadliwala!**"
         }
     },
 
@@ -63,7 +69,8 @@
             "component": "ArticleInfoBlock",
             "config": {},
             "locales": {
-                "en": {"title": "**A little bit** about me..."}
+                "en": {"title": "**A little bit** about me..."},
+                "de": {"title": "**Ein wenig** über mich..."}
             },
 
             "items": [
@@ -74,35 +81,11 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text": "<p>In a world driven by technology, I am the architect of innovation, crafting digital solutions that reshape industries. With a dynamic skill set spanning web engineering, cloud computing, and data management, I transform ideas into realities. Dive into my portfolio to witness a journey of innovation and excellence.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"}
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "testimonials",
-            "component": "ArticleTestimonials",
-            "config": {},
-            "locales": {
-                "en": {"title": "Client **testimonials**"}
-            },
-
-            "items": [
-                {
-                    "value": "Hannes Muller",
-                    "links": [
-                        {"href": "https://linkedin.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-1.png",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
                         "en": {
-                            "info": "CEO at <b>SalesForce</b>",
-                            "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                            "text": "<p>In a world driven by technology, I am the architect of innovation, crafting digital solutions that reshape industries. With a dynamic skill set spanning web engineering, cloud computing, and data management, I transform ideas into realities. Dive into my portfolio to witness a journey of innovation and excellence.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b></p>"
+                        },
+                        "de": {
+                            "text": "<p>In einer von Technologie geprägten Welt bin ich der Architekt der Innovation und entwickle digitale Lösungen, die Branchen verändern. Mit einem dynamischen Skillset in Web-Engineering, Cloud-Computing und Datenmanagement verwandle ich Ideen in Realität. Werfen Sie einen Blick in mein Portfolio, um eine Reise voller Innovation und Exzellenz zu erleben.</p><p>Mein vielseitiger Hintergrund ermöglicht es mir, mich flexibel an unterschiedlichste Projektanforderungen anzupassen.</p><p>Ich freue mich auf die Zusammenarbeit <b>mit Ihnen!</b></p>"
                         }
                     }
                 }
@@ -116,7 +99,8 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Personal **interests**"}
+                "en": {"title": "Personal **interests**"},
+                "de": {"title": "Persönliche **Interessen**"}
             },
 
             "items": [
@@ -131,6 +115,10 @@
                         "en": {
                             "title": "Playing Chess",
                             "info": "Exploring different genres and improving my skills."
+                        },
+                        "de": {
+                            "title": "Schach spielen",
+                            "info": "Verschiedene Strategien erkunden und meine Fähigkeiten verbessern."
                         }
                     }
                 },
@@ -147,17 +135,9 @@
                             "title": "Illustration",
                             "info": "Practicing digital art and exploring new styles."
                         },
-                        "es": {
-                            "title": "Ilustración",
-                            "info": "Practicando arte digital y explorando nuevos estilos."
-                        },
-                        "fr": {
+                        "de": {
                             "title": "Illustration",
-                            "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
-                        },
-                        "ko": {
-                            "title": "일러스트레이션",
-                            "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                            "info": "Digitale Kunst praktizieren und neue Stile erkunden."
                         }
                     }
                 },
@@ -174,17 +154,9 @@
                             "title": "Investing",
                             "info": "Learning the basics of stocks and personal finance."
                         },
-                        "es": {
-                            "title": "Invertir",
-                            "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
-                        },
-                        "fr": {
-                            "title": "Investir",
-                            "info": "Apprendre les bases des actions et des finances personnelles."
-                        },
-                        "ko": {
-                            "title": "투자",
-                            "info": "주식과 개인 재정의 기초 배우기."
+                        "de": {
+                            "title": "Investieren",
+                            "info": "Grundlagen des Aktienmarkts und der persönlichen Finanzen erlernen."
                         }
                     }
                 },
@@ -201,17 +173,9 @@
                             "title": "UX design",
                             "info": "Studying user experience principles."
                         },
-                        "es": {
-                            "title": "Diseño UX",
-                            "info": "Estudiando los principios de la experiencia del usuario."
-                        },
-                        "fr": {
-                            "title": "Conception UX",
-                            "info": "Étudier les principes de l'expérience utilisateur."
-                        },
-                        "ko": {
-                            "title": "UX 디자인",
-                            "info": "사용자 경험 원칙을 공부하기."
+                        "de": {
+                            "title": "UX-Design",
+                            "info": "Grundsätze der Benutzererfahrung studieren."
                         }
                     }
                 },
@@ -228,17 +192,9 @@
                             "title": "Photo editing",
                             "info": "Enhancing photos through creative editing techniques."
                         },
-                        "es": {
-                            "title": "Edición de fotos",
-                            "info": "Mejorando fotos a través de técnicas creativas de edición."
-                        },
-                        "fr": {
-                            "title": "Retouche photo",
-                            "info": "Améliorer des photos avec des techniques de montage créatives."
-                        },
-                        "ko": {
-                            "title": "사진 편집",
-                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        "de": {
+                            "title": "Fotobearbeitung",
+                            "info": "Fotos mit kreativen Bearbeitungstechniken verbessern."
                         }
                     }
                 }
